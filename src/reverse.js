@@ -1,23 +1,23 @@
 //ex.2 solution 1
 
-// let reverseArray = (array) => {
-//   let result = [];
-//   for (let i = 0; i <= array.length + 1; i++) {
-//     result.push(array.pop());
-//   }
-//   return result;
-// };
-// console.log(reverseArray(['A', 'B', 'C']));
+let reverseArray = (array) => {
+  let result = [];
+  for (let i = 0; i <= array.length + 1; i++) {
+    result.push(array.pop());
+  }
+  return result;
+};
+console.log(reverseArray(["A", "B", "C"]));
 
-// let reverseArrayinPlace = (arrayValue) => {
-//   let result = [];
-//   for (let i = arrayValue.length - 1; i >= 0; i--) {
-//     result.push(arrayValue[i]);
-//   }
-//   return result;
-// };
-// let arrayValue = [1, 2, 3, 4, 5];
-// console.log(reverseArrayinPlace(arrayValue));
+let reverseArrayinPlace = (arrayValue) => {
+  let result = [];
+  for (let i = arrayValue.length - 1; i >= 0; i--) {
+    result.push(arrayValue[i]);
+  }
+  return result;
+};
+let arrayValue = [1, 2, 3, 4, 5];
+console.log(reverseArrayinPlace(arrayValue));
 
 //ex.2 solution 2
 
